@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Free Quote</title>
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/NicePng_insurance-icon-png_2081015.png">
+</head>
+
+<body>
+	<div class="image-container set-full-height" style="background-color:#252525;">
+
+		<!--   Big container   -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2">
+					<!-- Wizard container -->
+					<div class="wizard-container">
+						<div class="card wizard-card" data-color="red" id="wizard">
+							<form action="success.html" method="get" novalidate="novalidate">
+								<!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
+
+								<div class="wizard-header">
+									<h3 class="wizard-title">
+										Next up some of the basics
+									</h3>
+									<h5>This information helps us find the right insurers for you.</h5>
+								</div>
+								<div class="wizard-navigation">
+									<ul>
+										<li><a href="#step1" data-toggle="tab">Step 1</a></li>
+										<li><a href="#step2" data-toggle="tab">Step 2</a></li>
+										<li><a href="#step3" data-toggle="tab">Step 3</a></li>
+										<li><a href="#step4" data-toggle="tab">Step 4</a></li>
+									</ul>
+								</div>
+
+								<div class="tab-content">
+									<div class="tab-pane" id="step1">
+										<h3 class="info-text">Gender</h3>
+										<div class="row">
+											<div class="col-sm-10 col-sm-offset-1">
+												<div class="col-sm-6">
+													<div class="choice" data-toggle="wizard-radio" rel="tooltip"
+														title="Select your Gender">
+														<input type="radio" name="job" value="Design">
+														<div class="icon">
+															Male
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6">
+													<div class="choice" data-toggle="wizard-radio" rel="tooltip"
+														title="Select your Gender">
+														<input type="radio" name="job" value="Code">
+														<div class="icon">
+															Female
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row mt-40">
+											<div class="col-sm-12">
+												<h3 class="info-text"> Date of Birth</h3>
+											</div>
+											<div class="col-sm-12">
+												<div class="input-group">
+													<span class="input-group-addon">
+													</span>
+													<div class="form-group label-floating">
+														<!-- <label class="control-label">Date</label> -->
+														<input name="name" type="date" class="form-control">
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-12 mt-40">
+												<h3 class="info-text"> Zip Code</h3>
+											</div>
+											<div class="col-sm-12">
+												<div class="input-group">
+													<span class="input-group-addon">
+													</span>
+													<div class="form-group label-floating">
+														<label class="control-label">Zip Code</label>
+														<input name="zip" type="text" class="form-control">
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-12 mt-40">
+												<h3 class="info-text">E-Mail</h3>
+											</div>
+											<div class="col-sm-12">
+												<div class="input-group">
+													<span class="input-group-addon">
+													</span>
+													<div class="form-group label-floating">
+														<label class="control-label">Enter your email address
+														</label>
+														<input type="email" name="email" class="form-control" required>
+													</div>
+													<div class="checkbox">
+
+														<label>
+															<input type="checkbox" name="optionsCheckboxes">
+															check box so see if someone watch to subscribe. change text
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="tab-pane" id="step2">
+										<div class="row">
+											<div class="col-sm-12">
+												<h4 class="info-text"> Are you currently a U.S citizen or permanent
+													resident?</h4>
+												<div class="row">
+													<div class="col-sm-10 col-sm-offset-1">
+														<div class="col-sm-6">
+															<div class="choice" data-toggle="wizard-radio" rel="tooltip"
+																title="Select your citizenship">
+																<input type="radio" name="job" value="Design">
+																<div class="icon">
+																	Yes
+																</div>
+															</div>
+														</div>
+														<div class="col-sm-6">
+															<div class="choice" data-toggle="wizard-radio" rel="tooltip"
+																title="Select your citizenship">
+																<input type="radio" name="job" value="Code">
+																<div class="icon">
+																	No
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-12 mt-40">
+												<h4 class="info-text mb-10"> Your estimated annual income?</h4>
+												<p class="info-para">The payout from your policy would replace the
+													income your dependents
+													would lose if something happens to you, An estimate is fine!</p>
+												<div class="input-group">
+													<span class="input-group-addon">
+													</span>
+													<div class="form-group label-floating">
+														<label class="control-label">Enter annual income</label>
+														<input name="income" type="number" class="form-control">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="tab-pane" id="step3">
+										<h4 class="info-text mb-10"> We just need a few more details to improve the
+											accuracy of your quotes.</h4>
+										<div class="row mt-40">
+											<div class="col-sm-12">
+												<h3 class="info-text"> Height(ft./in.)</h3>
+											</div>
+											<div class="col-sm-6">
+												<div class="input-group">
+													<span class="input-group-addon">
+													</span>
+													<div class="form-group label-floating">
+														<label class="control-label">ft</label>
+														<input name="ft" type="number" class="form-control">
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="input-group">
+													<span class="input-group-addon">
+													</span>
+													<div class="form-group label-floating">
+														<label class="control-label">in</label>
+														<input name="in" type="number" class="form-control">
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-12">
+												<h3 class="info-text"> Weight(lbs)</h3>
+												<div class="input-group">
+													<span class="input-group-addon">
+													</span>
+													<div class="form-group label-floating">
+														<label class="control-label">lbs</label>
+														<input name="weight" type="number" class="form-control">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-10 col-sm-offset-1">
+												<h4 class="info-text mb-10"> Have you used any tobacco products in
+													the
+													last 5 years?</h4>
+												<div class="col-sm-6">
+													<div class="choice" data-toggle="wizard-radio" rel="tooltip"
+														title="Choose an option">
+														<input type="radio" name="job" value="Design">
+														<div class="icon">
+															Yes
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6">
+													<div class="choice" data-toggle="wizard-radio" rel="tooltip"
+														title="Choose an option">
+														<input type="radio" name="job" value="Code">
+														<div class="icon">
+															No
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="tab-pane" id="step4">
+										<div class="row">
+											<h4 class="info-text"> Have you ever been treated for and/or taken
+												medication for any of the following?</h4>
+											<div class="col-sm-12">
+												<div class="checkbox">
+
+													<label>
+														<input type="checkbox" name="optionsCheckboxes">
+														Asthama
+													</label>
+													<label>
+														<input type="checkbox" name="optionsCheckboxes">
+														Cancer
+													</label>
+													<label>
+														<input type="checkbox" name="optionsCheckboxes">
+														Depression
+													</label>
+													<label>
+														<input type="checkbox" name="optionsCheckboxes">
+														Diabetes
+													</label>
+													<label>
+														<input type="checkbox" name="optionsCheckboxes">
+														Heart attack
+													</label>
+													<label>
+														<input type="checkbox" name="optionsCheckboxes">
+														Sleep apnea
+													</label>
+													<label>
+														<input type="checkbox" name="optionsCheckboxes">
+														Stroke
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="wizard-footer">
+									<div class="pull-right">
+										<input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next'
+											value='Next' />
+										<input type='submit' class='btn btn-finish btn-fill btn-danger btn-wd'
+											name='finish' value='Finish' />
+									</div>
+									<div class="pull-left">
+										<input type='button' class='btn btn-previous btn-fill btn-default btn-wd'
+											name='previous' value='Previous' />
+
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</form>
+						</div>
+					</div> <!-- wizard container -->
+				</div>
+			</div> <!-- row -->
+		</div> <!--  big container -->
+
+
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+
+</html>
